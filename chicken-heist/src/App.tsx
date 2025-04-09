@@ -8,9 +8,11 @@ import { Choices } from './comp/choices';
 function App() {
   return (
     <>
-      <Body></Body>
-      <Scenarios></Scenarios>
-      <Choices></Choices>
+      <div className='bg-yellow-50 min-h-screen'>
+        <Body></Body>
+        <Scenarios></Scenarios>
+        <Choices></Choices>
+      </div>
     </>
   );
 }
