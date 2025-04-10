@@ -22,7 +22,7 @@ function App() {
         {gameStarted && (
           <>
           <Body/>
-          <Scenarios/>
+          <Scenarios scenarioKey={'default'}/>
           <Choices/>
           </>
         )}
