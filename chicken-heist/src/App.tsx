@@ -22,8 +22,8 @@ function App() {
         {gameStarted && (
           <>
           <Body/>
-          <Scenarios scenarioKey={'default'}/>
-          <Choices/>
+          <Scenarios scenarioKey={'flanders'}/>
+          <Choices choiceKey={'default'}/>
           </>
         )}
       </div>
