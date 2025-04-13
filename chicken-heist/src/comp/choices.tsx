@@ -9,17 +9,18 @@ import restart from "./Restart.png"
 
 export const Choices = () => {
     return (
-        <div className="fixed bottom-[-60px] left-[42%] transform -translate-x-3/4 w-[350px] h-60 scale-75">
-            <div className="flex flex-row gap-32">
+        <div className="fixed bottom-10 inset-x-0 flex justify-center">
+            <div className="flex flex-row gap-10 w-full max-w-md justify-center">
                 <img
                     src={option}
-                    className="cursor-pointer hover:scale-105 transition-transform"
+                    className="w-150 h-28 cursor-pointer hover:scale-105 transition-transform"
                 />
                 <img
                     src={option}
-                    className="cursor-pointer hover:scale-105 transition-transform"
+                    className="w-150 h-28 cursor-pointer hover:scale-105 transition-transform"
                 />
             </div>
         </div>
     );
 };
+
