@@ -31,10 +31,9 @@ const imageMap: Record<ChoiceKey, string> = {
 export const Choices: React.FC<ChoiceProps> = ({ choiceKey, options, onClick }) => {
     const isDefault = choiceKey === "default";
 
-    const defaultOptions = [option, option];
     return (
         <div className="fixed bottom-10 inset-x-0 flex justify-center">
-            <div className="flex flex-row gap-10 w-full max-w-md justify-center">
+            <div className="flex flex-row gap-10 w-full max-w-4xl justify-center">
                 {isDefault ? (
                     options.map((option, index) => (
                         <div

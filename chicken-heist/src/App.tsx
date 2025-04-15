@@ -39,7 +39,7 @@ function App() {
           <>
             <Body />
             <Scenarios scenarioKey={currentNode.scenarioKey} text={currentNode.text} />
-            <Choices choiceKey={'default'} options={currentNode.options} onClick={handleChoice} />
+            <Choices choiceKey={currentNode.choiceKey} options={currentNode.options} onClick={handleChoice} />
           </>
         )}
 
