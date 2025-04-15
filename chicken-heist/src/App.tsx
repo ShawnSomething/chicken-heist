@@ -26,7 +26,11 @@ function App() {
   const currentNode: StoryNode | undefined = storyKey.find(node => node.id === currentId);
 
   const handleChoice = (nextId: number) => {
-    setCurrentId(nextId);
+    if (nextId === -1) {
+      restartGame()
+    } else {
+      setCurrentId(nextId)
+    }
   };
 
   return (

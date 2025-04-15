@@ -136,4 +136,16 @@ export const storyKey: StoryNode[] = [
             }
         ]
     },
+    {
+        id: 11,
+        scenarioKey: "default",
+        choiceKey: "restart",
+        text: "The Guards notice something suspicious. You got caught",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            }
+        ]
+    },
   ]
