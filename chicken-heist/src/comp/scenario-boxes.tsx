@@ -6,10 +6,11 @@ import guardBox from "./Gueard Box.png";
 import flandersBox from "./Flander Box.png";
 import bossBox from "./Boss Box.png";
 
-type ScenarioKey = "default" | "guard" | "flanders" | "boss";
+type ScenarioKey = "default" | "guard" | "flanders" | "boss" | any;
 
 interface ScenariosProps {
   scenarioKey: ScenarioKey;
+  text: string;
 }
 
 const imageMap: Record<ScenarioKey, string> = {
@@ -19,7 +20,7 @@ const imageMap: Record<ScenarioKey, string> = {
   boss: bossBox,
 };
 
-export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey }) => {
+export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
   return (
     <div className="fixed top-2/4 inset-x-0 flex justify-center">
       <AnimatePresence mode="wait">
@@ -33,7 +34,10 @@ export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey }) => {
           transition={{ duration: 0.2, ease: "easeInOut" }}
         />
       </AnimatePresence>
+
+      <div className="absolute bottom-12 w-full max-w-3xl px-14">
+          {text}
+      </div>
     </div>
   );
 };
-
