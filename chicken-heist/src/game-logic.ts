@@ -282,7 +282,7 @@ export const storyKey: StoryNode[] = [
     },
     {
         id: 21,
-        scenarioKey: "defaults",
+        scenarioKey: "default",
         choiceKey: "restart",
         text: "The Guard in the photo walks into the locker room, wearing stretchy yoga pants. He sees you at his locker and is humiliated. You got caught",
         options: [
