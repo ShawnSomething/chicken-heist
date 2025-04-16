@@ -36,7 +36,18 @@ export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
       </AnimatePresence>
 
       <div className="absolute bottom-12 w-full max-w-3xl px-14">
+        <AnimatePresence mode="wait"> 
+          <motion.div 
+            key={text}
+            className="text-black text-x1"
+            initial={{ opacity: 0, scale: 1.2 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2, ease: "easeInOut" }}
+          >
           {text}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );
