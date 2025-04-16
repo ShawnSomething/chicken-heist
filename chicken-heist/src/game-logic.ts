@@ -616,4 +616,516 @@ export const storyKey: StoryNode[] = [
             }
         ]
     },
+    {
+        id: 30,
+        scenarioKey: "default",
+        choiceKey: "default",
+        text: "A nice lady with a duck apron asks if you want to join the cooking class",
+        options: [
+            {
+                text: "Join the cooking class",
+                nextId: 44
+            },
+            {
+                text: "Say that you are needed in the control room",
+                nextId: 45
+            }
+        ]
+    },
+    {
+        id: 44,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "You try your best, but set fire to the kitchen. You run out of the room while you hear Flanders laughing in your ear piece. A group of guards run up to you.",
+        options: [
+            {
+                text: " ",
+                nextId: 46
+            },
+        ]
+    },
+    {
+        id: 46,
+        scenarioKey: "guard",
+        choiceKey: "default",
+        text: "Guards: Are you hurt? What happened?",
+        options: [
+            {
+                text: "Tell the truth: You are a terrible cook",
+                nextId: 47
+            },
+            {
+                text: "Tell them that the Duck Lady is trying to steal the secret recipe and this is a distraction",
+                nextId: 48
+            }
+        ]
+    },
+    {
+        id: 47,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "The guards award you for your honesty and bring you to the control room to brag about you to the boss",
+        options: [
+            {
+                text: " ",
+                nextId: 49
+            },
+        ]
+    },
+    {
+        id: 48,
+        scenarioKey: "guard",
+        choiceKey: "restart",
+        text: "Guards: LIAR! She is the best cook in town! She would never do this! She is such a lovely person. How could you lie about her?! You got caught",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 45,
+        scenarioKey: "guard",
+        choiceKey: "default",
+        text: "Duck Lady: Aw... Everyone only wants to go to the yoga class... No one ever wants to join my cooking class... Maybe I should start wearing tight yoga pants while cooking too...",
+        options: [
+            {
+                text: "Join the cooking class",
+                nextId: 44
+            },
+            {
+                text: "Agree with her on the tight yoga pants thing",
+                nextId: 50
+            },
+            {
+                text: "Suggest changing the class to another day",
+                nextId: 51
+            }
+        ]
+    },
+    {
+        id: 50,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "Duck Lady got offended and calls the guards on you. You are brought to the HR department",
+        options: [
+            {
+                text: " ",
+                nextId: 31
+            },
+        ]
+    },
+    {
+        id: 51,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "You both have a really nice heart to heart about how she doesn't think that the team values her. She thought she could win them over with her cooking. She is thankful for your empathy and brings you to the control room to brag about you to the boss",
+        options: [
+            {
+                text: " ",
+                nextId: 49
+            },
+        ]
+    },
+    {
+        id: 49,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "You arrive in the control room. The boos is sitting with his back to you. His left hand petting the chicken that is on his desk.",
+        options: [
+            {
+                text: " ",
+                nextId: 52
+            },
+        ]
+    },
+    {
+        id: 52,
+        scenarioKey: "default",
+        choiceKey: "default",
+        text: "You are left alone with the boss after the a little too long bragging session. He didn't react, but you very much appreciated it. The room is silent. Only the sound of the chicken cooing as it is being pet.",
+        options: [
+            {
+                text: "Wait patiently while the boss pets the chicken",
+                nextId: 53
+            },
+            {
+                text: "Actively glance around the room to find the location of the safe with the secret recipe",
+                nextId: 54
+            }
+        ]
+    },
+    {
+        id: 53,
+        scenarioKey: "flanders",
+        choiceKey: "default",
+        text: "Flanders: That freak! Ever since we were kids, he loved those chickens more than anything else! He is crazy! Never understood why daddy liked him more!",
+        options: [
+            {
+                text: "Continue waiting",
+                nextId: 55
+            },
+            {
+                text: "Clears throat to get the boss' attention",
+                nextId: 56
+            }
+        ]
+    },
+    {
+        id: 56,
+        scenarioKey: "default",
+        choiceKey: "restart",
+        text: "The boss turns around slowly. He notices the communicator in your ear immediately. He picks up the chicken and throws it at you. You got caught",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 55,
+        scenarioKey: "default",
+        choiceKey: "default",
+        text: "The boss is still petting the chicken",
+        options: [
+            {
+                text: "Continue waiting",
+                nextId: 58
+            },
+            {
+                text: "Clears throat to get the boss' attention",
+                nextId: 56
+            }
+        ]
+    },
+    {
+        id: 58,
+        scenarioKey: "default",
+        choiceKey: "default",
+        text: "The chicken looks like it's having a great time.",
+        options: [
+            {
+                text: "Continue waiting",
+                nextId: 59
+            },
+            {
+                text: "Clears throat to get the boss' attention",
+                nextId: 56
+            }
+        ]
+    },
+    {
+        id: 59,
+        scenarioKey: "default",
+        choiceKey: "default",
+        text: "The boss finishes petting the chicken, turns around and looks at you",
+        options: [
+            {
+                text: "Ask him where the safe is",
+                nextId: 60
+            },
+            {
+                text: "Compliment him for his chicken care",
+                nextId: 61
+            }
+        ]
+    },
+    {
+        id: 60,
+        scenarioKey: "default",
+        choiceKey: "normWin",
+        text: "The boss likes your moxie. He gives you a well paying job and calls the cops on Flanders",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 61,
+        scenarioKey: "boss",
+        choiceKey: "next",
+        text: "Boss: oh? You noticed? Not many do! Chickens are the most beautiful creatures in the world!",
+        options: [
+            {
+                text: " ",
+                nextId: 62
+            },
+        ]
+    },
+    {
+        id: 62,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "The boss goes into a three hour monologue about the best way to care for a chicken. Tears welled up in his eyes as he spoke.",
+        options: [
+            {
+                text: " ",
+                nextId: 63
+            },
+        ]
+    },
+    {
+        id: 63,
+        scenarioKey: "boss",
+        choiceKey: "next",
+        text: "Boss: These amazing creatures... All because of this stupid family legacy... I... I have to kill them...",
+        options: [
+            {
+                text: " ",
+                nextId: 64
+            },
+        ]
+    },
+    {
+        id: 54,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "The boss notices that you are glancing around. He stands up and walks over to you slowly, the chicken cradled in his arms like a child.",
+        options: [
+            {
+                text: " ",
+                nextId: 65
+            },
+        ]
+    },
+    {
+        id: 65,
+        scenarioKey: "boss",
+        choiceKey: "default",
+        text: "Boss: Did my brother send you?",
+        options: [
+            {
+                text: "Your brother? What brother?",
+                nextId: 66
+            },
+            {
+                text: "Yes, I was the only one he could afford",
+                nextId: 67
+            }
+        ]
+    },
+    {
+        id: 67,
+        scenarioKey: "flanders",
+        choiceKey: "next",
+        text: "Flanders: What are you doing kid?! Now he is going to think I am a cheap donkey!",
+        options: [
+            {
+                text: " ",
+                nextId: 68
+            },
+        ]
+    },
+    {
+        id: 68,
+        scenarioKey: "default",
+        choiceKey: "normWin",
+        text: "The boos is amused at your honesty. He gives you a well paying job and calls the cops on Flanders",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 66,
+        scenarioKey: "boss",
+        choiceKey: "next",
+        text: "Boss: It's alright, no one really knew who he was. Daddy disowned him because he never cared for the chicken on the farm. He used to tie bottle rockets to their wings so they would fly higher...",
+        options: [
+            {
+                text: " ",
+                nextId: 69
+            },
+        ]
+    },
+    {
+        id: 69,
+        scenarioKey: "flanders",
+        choiceKey: "next",
+        text: "Flanders: haHA! That's probably one of my best works yet!",
+        options: [
+            {
+                text: " ",
+                nextId: 70
+            },
+        ]
+    },
+    {
+        id: 70,
+        scenarioKey: "boss",
+        choiceKey: "default",
+        text: "Boss: Such a strange... Jealous little man...",
+        options: [
+            {
+                text: "Smile and nod",
+                nextId: 71
+            },
+            {
+                text: "Maybe... he had his reasons?",
+                nextId: 72
+            }
+        ]
+    },
+    {
+        id: 71,
+        scenarioKey: "default",
+        choiceKey: "restart",
+        text: "The boss was not amused by the way you easily agreed with with rude statement about his brother. He throws the chicken at you. You got caught.",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 72,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "The boss goes into a two hour monologue, opening up about their childhood. About all the expectations placed on them for the business and the reputation.",
+        options: [
+            {
+                text: " ",
+                nextId: 73
+            },
+        ]
+    },
+    {
+        id: 73,
+        scenarioKey: "boss",
+        choiceKey: "next",
+        text: "Boss: I hated killing these little guys. I am now vegan, but am saddled with running this place to keep up the family legacy",
+        options: [
+            {
+                text: " ",
+                nextId: 64
+            },
+        ]
+    },
+    {
+        id: 64,
+        scenarioKey: "default",
+        choiceKey: "next",
+        text: "The boss ran out of the room crying. You can hear the staff outside trying to mooch of his vulnerable state",
+        options: [
+            {
+                text: " ",
+                nextId: 74
+            },
+        ]
+    },
+    {
+        id: 74,
+        scenarioKey: "flanders",
+        choiceKey: "default",
+        text: "Flanders: Great work kid! *Sniffles* Now... go... finish the job... and I'll make you rich... *Sniffles* (mutters -- sorry Sanders... brother... I need this.",
+        options: [
+            {
+                text: "Head to safe",
+                nextId: 75
+            },
+            {
+                text: "Grab the chicken on his table and bring it to the boss",
+                nextId: 76
+            }
+        ]
+    },
+    {
+        id: 75,
+        scenarioKey: "flanders",
+        choiceKey: "default",
+        text: "Flanders: Almost there kid... Almost there...",
+        options: [
+            {
+                text: "Open the safe and steal the recipe",
+                nextId: 77
+            },
+            {
+                text: "Glance back at the chicken on the table",
+                nextId: 78
+            }
+        ]
+    },
+    {
+        id: 77,
+        scenarioKey: "flanders",
+        choiceKey: "next",
+        text: "Flanders: Golden! I knew I could count on you! See? Cheap labour ain't so bad!",
+        options: [
+            {
+                text: " ",
+                nextId: 79
+            },
+        ]
+    },
+    {
+        id: 79,
+        scenarioKey: "Flanders",
+        choiceKey: "normWin",
+        text: "Flanders: Now, grab a grenade and blow up the place. You will be rewarded handsomely!",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 78,
+        scenarioKey: "flanders",
+        choiceKey: "next",
+        text: "Flanders: What are you doing? I am so close!",
+        options: [
+            {
+                text: " ",
+                nextId: 80
+            },
+        ]
+    },
+    {
+        id: 80,
+        scenarioKey: "default",
+        choiceKey: "restart",
+        text: "The staff came in and saw what you are doing. You got caught.",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
+    {
+        id: 76,
+        scenarioKey: "guard",
+        choiceKey: "default",
+        text: "Staff: What did you do to the boss?! We need him to be happy so he will approve our slide deck in 10 minutes",
+        options: [
+            {
+                text: "Ignore the staff and hand the boss the chicken",
+                nextId: 81
+            },
+            {
+                text: "Give the boss space by running the meeting for him",
+                nextId: 81
+            }
+        ]
+    },
+    {
+        id: 81,
+        scenarioKey: "default",
+        choiceKey: "bestWin",
+        text: "The boss notices your empathy and ability. You both go back into his room. He names you his successor. He gives you the recipe and calls the cops on Flanders.",
+        options: [
+            {
+                text: " ",
+                nextId: -1
+            },
+        ]
+    },
   ]
