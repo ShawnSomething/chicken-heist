@@ -16,7 +16,7 @@ export const storyKey: StoryNode[] = [
       id: 1,
       scenarioKey: "flanders",
       choiceKey: "default",
-      text: "Flanders: Hello there. Colonel Flanders here! Do you read me?",
+      text: "Flanders: \nHello there. Colonel Flanders here! Do you read me?",
       options: [
         {
           text: "Yes",
@@ -32,7 +32,7 @@ export const storyKey: StoryNode[] = [
         id: 2,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Blast this cheap Communication Device! Do you read me now?",
+        text: "Flanders: \nBlast this cheap Communication Device! Do you read me now?",
         options: [
             {
                 text: "Yes",
@@ -48,7 +48,7 @@ export const storyKey: StoryNode[] = [
         id: 4,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: You'd better not be pulling my leg kid! After this heist, I can make you really rich... or really, not rich. ",
+        text: "Flanders: \nYou'd better not be pulling my leg kid! After this heist, I can make you really rich... or really, not rich. ",
         options: [
             {
                 text: "Fine, yes",
@@ -64,7 +64,7 @@ export const storyKey: StoryNode[] = [
         id: 3,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Amazing! And they said you need a fancy Communication Device to have things work.",
+        text: "Flanders: \nAmazing! And they said you need a fancy Communication Device to have things work.",
         options: [
             {
                 text: "What's the mission?",
@@ -80,7 +80,7 @@ export const storyKey: StoryNode[] = [
         id: 5,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: A very special one, kid. A very important document of mine has been stolen. It's a secret document to my Family's Fried Chicken Recipe!",
+        text: "Flanders: \nA very special one, kid. A very important document of mine has been stolen. It's a secret document to my Family's Fried Chicken Recipe!",
         options: [
             {
                text: " ",
@@ -92,7 +92,7 @@ export const storyKey: StoryNode[] = [
         id: 6,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: I would have assembled a team, but you were the only person that replied on Gum's Tree... *Ahem*... Also, you were the only one cheap enough.",
+        text: "Flanders: \nI would have assembled a team, but you were the only person that replied on Gum's Tree... *Ahem*... Also, you were the only one cheap enough.",
         options: [
             {
                 text: "I do need the money...",
@@ -104,7 +104,7 @@ export const storyKey: StoryNode[] = [
         id: 7,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Alright kid, what is your current positino?",
+        text: "Flanders: \nAlright kid, what is your current positino?",
         options: [
             {
                 text: "East of the Stronghold",
@@ -120,7 +120,7 @@ export const storyKey: StoryNode[] = [
         id: 8,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: That's great. So on the East, there are two guards on the ground and one on the banister. How do you proceed?",
+        text: "Flanders: \nThat's great. So on the East, there are two guards on the ground and one on the banister. How do you proceed?",
         options: [
             {
                 text: "Walk up to them casually and start a conversation",
@@ -152,7 +152,7 @@ export const storyKey: StoryNode[] = [
         id: 10,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "You: Hey there! How's your day going? Hot out here! I'm here to inspect the...",
+        text: "You: \nHey there! How's your day going? Hot out here! I'm here to inspect the...",
         options: [
             {
                 text: "Squirrel Infestation",
@@ -180,7 +180,7 @@ export const storyKey: StoryNode[] = [
         id: 13,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: You're in! Now for the hard part. The Secret Recipe is at the top of the Control Tower. The only way to get there is to enter the main building from the front",
+        text: "Flanders: \nYou're in! Now for the hard part. The Secret Recipe is at the top of the Control Tower. The only way to get there is to enter the main building from the front",
         options: [
             {
                 text: " ",
@@ -192,7 +192,7 @@ export const storyKey: StoryNode[] = [
         id: 14,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: There are no guards at the door, but it leads right into the Staff Yoga Hall. How do you proceed?",
+        text: "Flanders: \nThere are no guards at the door, but it leads right into the Staff Yoga Hall. How do you proceed?",
         options: [
             {
                 text: "Walk in confidently",
@@ -220,7 +220,7 @@ export const storyKey: StoryNode[] = [
         id: 16,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: So there is a small stairway to the left of the courtyard?! Oh this blasted map! The guy at thie thrift shop told me that this was the real deal!",
+        text: "Flanders: \nSo there is a small stairway to the left of the courtyard?! Oh this blasted map! The guy at thie thrift shop told me that this was the real deal!",
         options: [
             {
                 text: "Turn back and walk into the staff Yoga Hall",
@@ -252,7 +252,7 @@ export const storyKey: StoryNode[] = [
         id: 18,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: Smart thinking kid! Now, if my map is still correct, there should be a hallway that leads to the control tower",
+        text: "Flanders: \nSmart thinking kid! Now, if my map is still correct, there should be a hallway that leads to the control tower",
         options: [
             {
                 text: " ",
@@ -296,7 +296,7 @@ export const storyKey: StoryNode[] = [
         id: 20,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: It should be just after the Staff's Cooking Class Room. Which is just down the long hallway.",
+        text: "Flanders: \nIt should be just after the Staff's Cooking Class Room. Which is just down the long hallway.",
         options: [
             {
                 text: "Head down the hallway",
@@ -360,7 +360,7 @@ export const storyKey: StoryNode[] = [
         id: 28,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Staff: Uhm... this is... totally NORMAL! You got caught!",
+        text: "Staff: \nUhm... this is... totally NORMAL! You got caught!",
         options: [
             {
                 text: " ",
@@ -384,7 +384,7 @@ export const storyKey: StoryNode[] = [
         id: 29,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Look at these plebs! If Daddy gave me the secret recipe, I would be the one with all the money and running this stupid cooking class myself! I make amazing Steaks",
+        text: "Flanders: \nLook at these plebs! If Daddy gave me the secret recipe, I would be the one with all the money and running this stupid cooking class myself! I make amazing Steaks",
         options: [
             {
                 text: "Shuffle awkwardly into the class room",
@@ -408,7 +408,7 @@ export const storyKey: StoryNode[] = [
         id: 31,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Staff: Welcome to the HR Department! Is there someone you want to fry? ...Wait, who are you?",
+        text: "Staff: \nWelcome to the HR Department! Is there someone you want to fry? ...Wait, who are you?",
         options: [
             {
                 text: "A new guard",
@@ -424,7 +424,7 @@ export const storyKey: StoryNode[] = [
         id: 32,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Staff: Don't be ridiculous, we don't care enough about security. We are all about *STrateGy*. You got caught.",
+        text: "Staff: \nDon't be ridiculous, we don't care enough about security. We are all about *STrateGy*. You got caught.",
         options: [
             {
                 text: " ",
@@ -436,7 +436,7 @@ export const storyKey: StoryNode[] = [
         id: 33,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Staff: Don't be ridiculous, we don't care enough about operations. We are all about *STrateGy*. You got caught",
+        text: "Staff: \nDon't be ridiculous, we don't care enough about operations. We are all about *STrateGy*. You got caught",
         options: [
             {
                 text: " ",
@@ -460,7 +460,7 @@ export const storyKey: StoryNode[] = [
         id: 34,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Staff: Hey! You there! Where are YOUR stretchy pants?!",
+        text: "Staff: \nHey! You there! Where are YOUR stretchy pants?!",
         options: [
             {
                 text: "Tell them you look hotter without it and do yoga with the rest of the staff.",
@@ -504,7 +504,7 @@ export const storyKey: StoryNode[] = [
         id: 9,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: That's great. So on the West, there are two guards with a guard dog and one on the banister. How do you proceed?",
+        text: "Flanders: \nThat's great. So on the West, there are two guards with a guard dog and one on the banister. How do you proceed?",
         options: [
             {
                 text: "Walk up to them casually and start a conversation",
@@ -536,7 +536,7 @@ export const storyKey: StoryNode[] = [
         id: 38,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: You're in! Now for the hard part. The Secret Recipe is at the top of the Control Tower. The only way to get there is to enter the main building from the front",
+        text: "Flanders: \nYou're in! Now for the hard part. The Secret Recipe is at the top of the Control Tower. The only way to get there is to enter the main building from the front",
         options: [
             {
                 text: " ",
@@ -548,7 +548,7 @@ export const storyKey: StoryNode[] = [
         id: 39,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: There are no guards at the door, but it leads right into the Staff Yoga Hall. How do you proceed?",
+        text: "Flanders: \nThere are no guards at the door, but it leads right into the Staff Yoga Hall. How do you proceed?",
         options: [
             {
                 text: "Walk in confidently",
@@ -648,7 +648,7 @@ export const storyKey: StoryNode[] = [
         id: 46,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Guards: Are you hurt? What happened?",
+        text: "Guards: \nAre you hurt? What happened?",
         options: [
             {
                 text: "Tell the truth: You are a terrible cook",
@@ -676,7 +676,7 @@ export const storyKey: StoryNode[] = [
         id: 48,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Guards: LIAR! She is the best cook in town! She would never do this! She is such a lovely person. How could you lie about her?! You got caught",
+        text: "Guards: \nLIAR! She is the best cook in town! She would never do this! She is such a lovely person. How could you lie about her?! You got caught",
         options: [
             {
                 text: " ",
@@ -688,7 +688,7 @@ export const storyKey: StoryNode[] = [
         id: 45,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Duck Lady: Aw... Everyone only wants to go to the yoga class... No one ever wants to join my cooking class... Maybe I should start wearing tight yoga pants while cooking too...",
+        text: "Duck Lady: \nAw... Everyone only wants to go to the yoga class... No one ever wants to join my cooking class... Maybe I should start wearing tight yoga pants while cooking too...",
         options: [
             {
                 text: "Join the cooking class",
@@ -760,7 +760,7 @@ export const storyKey: StoryNode[] = [
         id: 53,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: That freak! Ever since we were kids, he loved those chickens more than anything else! He is crazy! Never understood why daddy liked him more!",
+        text: "Flanders: \nThat freak! Ever since we were kids, he loved those chickens more than anything else! He is crazy! Never understood why daddy liked him more!",
         options: [
             {
                 text: "Continue waiting",
@@ -848,7 +848,7 @@ export const storyKey: StoryNode[] = [
         id: 61,
         scenarioKey: "boss",
         choiceKey: "next",
-        text: "Boss: oh? You noticed? Not many do! Chickens are the most beautiful creatures in the world!",
+        text: "Boss: \nOh? You noticed? Not many do! Chickens are the most beautiful creatures in the world!",
         options: [
             {
                 text: " ",
@@ -872,7 +872,7 @@ export const storyKey: StoryNode[] = [
         id: 63,
         scenarioKey: "boss",
         choiceKey: "next",
-        text: "Boss: These amazing creatures... All because of this stupid family legacy... I... I have to kill them...",
+        text: "Boss: \nThese amazing creatures... All because of this stupid family legacy... I... I have to kill them...",
         options: [
             {
                 text: " ",
@@ -896,7 +896,7 @@ export const storyKey: StoryNode[] = [
         id: 65,
         scenarioKey: "boss",
         choiceKey: "default",
-        text: "Boss: Did my brother send you?",
+        text: "Boss: \nDid my brother send you?",
         options: [
             {
                 text: "Your brother? What brother?",
@@ -912,7 +912,7 @@ export const storyKey: StoryNode[] = [
         id: 67,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: What are you doing kid?! Now he is going to think I am a cheap donkey!",
+        text: "Flanders: \nWhat are you doing kid?! Now he is going to think I am a cheap donkey!",
         options: [
             {
                 text: " ",
@@ -924,7 +924,7 @@ export const storyKey: StoryNode[] = [
         id: 68,
         scenarioKey: "default",
         choiceKey: "normWin",
-        text: "The boos is amused at your honesty. He gives you a well paying job and calls the cops on Flanders",
+        text: "The boss is amused at your honesty. He gives you a well paying job and calls the cops on Flanders",
         options: [
             {
                 text: " ",
@@ -936,7 +936,7 @@ export const storyKey: StoryNode[] = [
         id: 66,
         scenarioKey: "boss",
         choiceKey: "next",
-        text: "Boss: It's alright, no one really knew who he was. Daddy disowned him because he never cared for the chicken on the farm. He used to tie bottle rockets to their wings so they would fly higher...",
+        text: "Boss: \nIt's alright, no one really knew who he was. Daddy disowned him because he never cared for the chicken on the farm. He used to tie bottle rockets to their wings so they would fly higher...",
         options: [
             {
                 text: " ",
@@ -948,7 +948,7 @@ export const storyKey: StoryNode[] = [
         id: 69,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: haHA! That's probably one of my best works yet!",
+        text: "Flanders: \nhaHA! That's probably one of my best works yet!",
         options: [
             {
                 text: " ",
@@ -960,7 +960,7 @@ export const storyKey: StoryNode[] = [
         id: 70,
         scenarioKey: "boss",
         choiceKey: "default",
-        text: "Boss: Such a strange... Jealous little man...",
+        text: "Boss: \nSuch a strange... Jealous little man...",
         options: [
             {
                 text: "Smile and nod",
@@ -1000,7 +1000,7 @@ export const storyKey: StoryNode[] = [
         id: 73,
         scenarioKey: "boss",
         choiceKey: "next",
-        text: "Boss: I hated killing these little guys. I am now vegan, but am saddled with running this place to keep up the family legacy",
+        text: "Boss: \nI hated killing these little guys. I am now vegan, but am saddled with running this place to keep up the family legacy",
         options: [
             {
                 text: " ",
@@ -1024,7 +1024,7 @@ export const storyKey: StoryNode[] = [
         id: 74,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Great work kid! *Sniffles* Now... go... finish the job... and I'll make you rich... *Sniffles* (mutters -- sorry Sanders... brother... I need this.",
+        text: "Flanders: \nGreat work kid! *Sniffles* Now... go... finish the job... and I'll make you rich... *Sniffles* (mutters -- sorry Sanders... brother... I need this.",
         options: [
             {
                 text: "Head to safe",
@@ -1040,7 +1040,7 @@ export const storyKey: StoryNode[] = [
         id: 75,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: Almost there kid... Almost there...",
+        text: "Flanders: \nAlmost there kid... Almost there...",
         options: [
             {
                 text: "Open the safe and steal the recipe",
@@ -1056,7 +1056,7 @@ export const storyKey: StoryNode[] = [
         id: 77,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: Golden! I knew I could count on you! See? Cheap labour ain't so bad!",
+        text: "Flanders: \nGolden! I knew I could count on you! See? Cheap labour ain't so bad!",
         options: [
             {
                 text: " ",
@@ -1068,7 +1068,7 @@ export const storyKey: StoryNode[] = [
         id: 79,
         scenarioKey: "Flanders",
         choiceKey: "normWin",
-        text: "Flanders: Now, grab a grenade and blow up the place. You will be rewarded handsomely!",
+        text: "Flanders: \nNow, grab a grenade and blow up the place. You will be rewarded handsomely!",
         options: [
             {
                 text: " ",
@@ -1080,7 +1080,7 @@ export const storyKey: StoryNode[] = [
         id: 78,
         scenarioKey: "flanders",
         choiceKey: "next",
-        text: "Flanders: What are you doing? I am so close!",
+        text: "Flanders: \nWhat are you doing? I am so close!",
         options: [
             {
                 text: " ",
@@ -1104,7 +1104,7 @@ export const storyKey: StoryNode[] = [
         id: 76,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Staff: What did you do to the boss?! We need him to be happy so he will approve our slide deck in 10 minutes",
+        text: "Staff: \nWhat did you do to the boss?! We need him to be happy so he will approve our slide deck in 10 minutes",
         options: [
             {
                 text: "Ignore the staff and hand the boss the chicken",
