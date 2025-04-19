@@ -410,7 +410,7 @@ export const storyKey: StoryNode[] = [
         id: 29,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: \nLook at these plebs! If Daddy gave me the secret recipe, I would be the one with all the money and running this stupid cooking class myself! I make amazing Steaks",
+        text: "Flanders: \nLook at these plebs! Daddy should have given me all this, It's my money! My cooking class! I make amazing Steaks.",
         options: [
             {
                 text: "Shuffle awkwardly into the classroom",
