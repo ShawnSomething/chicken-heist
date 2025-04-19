@@ -35,7 +35,7 @@ export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
         />
       </AnimatePresence>
 
-      <div className="absolute bottom-6 w-full max-w-3xl px-14 py-2">
+      <div className="absolute bottom-6 w-full max-w-3xl px-14 py-0">
         <AnimatePresence mode="wait"> 
           <motion.div 
             key={text}
