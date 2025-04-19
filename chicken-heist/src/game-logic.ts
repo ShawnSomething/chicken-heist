@@ -7,26 +7,28 @@ export type StoryNode = {
     id: number
     scenarioKey: string
     choiceKey: string
+    bodyKey: string
     text: string
     options: StoryOption[]
 }
   
 export const storyKey: StoryNode[] = [
     {
-      id: 1,
-      scenarioKey: "flanders",
-      choiceKey: "default",
-      text: "Flanders: \nHello there. Colonel Flanders here! Do you read me?",
-      options: [
-        {
-          text: "Yes",
-          nextId: 3
-        },
-        {
-          text: "No",
-          nextId: 2
-        }
-      ]
+        id: 1,
+        scenarioKey: "flanders",
+        choiceKey: "default",
+        text: "Flanders: \nHello there. Colonel Flanders here! Do you read me?",
+        options: [
+            {
+                text: "Yes",
+                nextId: 3
+            },
+            {
+                text: "No",
+                nextId: 2
+            }
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 2,
@@ -42,7 +44,8 @@ export const storyKey: StoryNode[] = [
                 text: "No",
                 nextId: 4
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 4,
@@ -58,7 +61,8 @@ export const storyKey: StoryNode[] = [
                 text: "What?",
                 nextId: 2
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 3,
@@ -74,7 +78,8 @@ export const storyKey: StoryNode[] = [
                 text: "Did you get this off Eee's Bay?",
                 nextId: 4
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 5,
@@ -83,10 +88,11 @@ export const storyKey: StoryNode[] = [
         text: "Flanders: \nA very special one, kid. A very important document of mine has been stolen. It's a secret document to my Family's Fried Chicken Recipe!",
         options: [
             {
-               text: " ",
-               nextId: 6 
+                text: " ",
+                nextId: 6
             }
-        ]
+        ],
+        bodyKey: "recipe"
     },
     {
         id: 6,
@@ -98,7 +104,8 @@ export const storyKey: StoryNode[] = [
                 text: "I do need the money...",
                 nextId: 7
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 7,
@@ -114,7 +121,8 @@ export const storyKey: StoryNode[] = [
                 text: "West of the Stronghold",
                 nextId: 9
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 8,
@@ -134,7 +142,8 @@ export const storyKey: StoryNode[] = [
                 text: "This seems like a bad idea",
                 nextId: 11
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 11,
@@ -146,7 +155,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             }
-        ]
+        ],
+        bodyKey: "guardAngry"
     },
     {
         id: 10,
@@ -162,7 +172,8 @@ export const storyKey: StoryNode[] = [
                 text: "Your Security Vault",
                 nextId: 11
             }
-        ]
+        ],
+        bodyKey: "guardNeutral"
     },
     {
         id: 12,
@@ -172,9 +183,10 @@ export const storyKey: StoryNode[] = [
         options: [
             {
                 text: "Enter the stronghold",
-                nextId: 13 
+                nextId: 13
             },
-        ]
+        ],
+        bodyKey: "guardConfused"
     },
     {
         id: 13,
@@ -186,7 +198,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 14
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 14,
@@ -202,7 +215,8 @@ export const storyKey: StoryNode[] = [
                 text: "Scout the area",
                 nextId: 16
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 15,
@@ -214,7 +228,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffYoga"
     },
     {
         id: 16,
@@ -230,7 +245,8 @@ export const storyKey: StoryNode[] = [
                 text: "Use the stairs",
                 nextId: 17
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 17,
@@ -246,7 +262,8 @@ export const storyKey: StoryNode[] = [
                 text: "Open every locker to look for clues",
                 nextId: 19
             }
-        ]
+        ],
+        bodyKey: "breakroom"
     },
     {
         id: 18,
@@ -258,13 +275,14 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 20
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 19,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "You find a locker with a bunch of photos of one guard on all fours. He had a chicken riding on his back and a carrot in his mouth.",
+        text: "You find a locker with a bunch of photos of one staff on all fours. He had a chicken riding on his back and a carrot in his mouth.",
         options: [
             {
                 text: "Take a better look at the photos",
@@ -278,19 +296,21 @@ export const storyKey: StoryNode[] = [
                 text: "Steal and put on a guard uniform from this locker",
                 nextId: 21
             }
-        ]
+        ],
+        bodyKey: "staffPhoto"
     },
     {
         id: 21,
         scenarioKey: "default",
         choiceKey: "restart",
-        text: "The Guard in the photo walks into the locker room, wearing stretchy yoga pants. He sees you at his locker and is humiliated. You got caught",
+        text: "The Staff in the photo walks into the locker room, wearing stretchy yoga pants. He sees you at his locker and is humiliated. You got caught",
         options: [
             {
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 20,
@@ -310,7 +330,8 @@ export const storyKey: StoryNode[] = [
                 text: "Check the lockers",
                 nextId: 24
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 24,
@@ -322,7 +343,8 @@ export const storyKey: StoryNode[] = [
                 text: "Take a better look at the photos",
                 nextId: 21
             },
-        ]
+        ],
+        bodyKey: "staffPhoto"
     },
     {
         id: 22,
@@ -342,7 +364,8 @@ export const storyKey: StoryNode[] = [
                 text: "Open Door 3: The Deep Fryer",
                 nextId: 27
             }
-        ]
+        ],
+        bodyKey: "threeDoors"
     },
     {
         id: 25,
@@ -354,7 +377,8 @@ export const storyKey: StoryNode[] = [
                 text: "You slowly back out",
                 nextId: 28
             },
-        ]
+        ],
+        bodyKey: "mouthFeed"
     },
     {
         id: 28,
@@ -366,7 +390,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 26,
@@ -378,7 +403,8 @@ export const storyKey: StoryNode[] = [
                 text: "Proceed to the other door and head into the Cooking Class Room",
                 nextId: 29
             },
-        ]
+        ],
+        bodyKey: "canteen"
     },
     {
         id: 29,
@@ -390,7 +416,8 @@ export const storyKey: StoryNode[] = [
                 text: "Shuffle awkwardly into the classroom",
                 nextId: 30
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 27,
@@ -402,7 +429,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 31
             },
-        ]
+        ],
+        bodyKey: "deepFryer"
     },
     {
         id: 31,
@@ -418,7 +446,8 @@ export const storyKey: StoryNode[] = [
                 text: "A new staff",
                 nextId: 33
             }
-        ]
+        ],
+        bodyKey: "staffNeutral"
     },
     {
         id: 32,
@@ -430,7 +459,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffConfused"
     },
     {
         id: 33,
@@ -442,7 +472,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 23,
@@ -454,7 +485,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 34
             },
-        ]
+        ],
+        bodyKey: "staffConfused"
     },
     {
         id: 34,
@@ -474,7 +506,8 @@ export const storyKey: StoryNode[] = [
                 text: "Tell them you forgot it and need to go back to get it.",
                 nextId: 36
             }
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 36,
@@ -486,7 +519,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 35,
@@ -498,7 +532,8 @@ export const storyKey: StoryNode[] = [
                 text: "Proceed to the other door and head into the Cooking Class Room",
                 nextId: 29
             },
-        ]
+        ],
+        bodyKey: "staffYoga"
     },
     {
         id: 9,
@@ -518,7 +553,8 @@ export const storyKey: StoryNode[] = [
                 text: "This seems like a bad idea...",
                 nextId: 11
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 37,
@@ -530,7 +566,8 @@ export const storyKey: StoryNode[] = [
                 text: "Enter the Stronghold",
                 nextId: 38
             },
-        ]
+        ],
+        bodyKey: "guardConfused"
     },
     {
         id: 38,
@@ -542,7 +579,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 39
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 39,
@@ -558,7 +596,8 @@ export const storyKey: StoryNode[] = [
                 text: "Scout the area",
                 nextId: 41
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 41,
@@ -570,7 +609,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "guardAngry"
     },
     {
         id: 40,
@@ -586,7 +626,8 @@ export const storyKey: StoryNode[] = [
                 text: "Tell them that you are a new guard and this is your first day",
                 nextId: 43
             }
-        ]
+        ],
+        bodyKey: "staffYoga"
     },
     {
         id: 42,
@@ -598,7 +639,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 43,
@@ -614,7 +656,8 @@ export const storyKey: StoryNode[] = [
                 text: "Open every locker to look for clues",
                 nextId: 19
             }
-        ]
+        ],
+        bodyKey: "breakroom"
     },
     {
         id: 30,
@@ -630,7 +673,8 @@ export const storyKey: StoryNode[] = [
                 text: "Say that you are needed in the control room",
                 nextId: 45
             }
-        ]
+        ],
+        bodyKey: "duckLadyNice"
     },
     {
         id: 44,
@@ -642,7 +686,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 46
             },
-        ]
+        ],
+        bodyKey: "guardConfused"
     },
     {
         id: 46,
@@ -658,7 +703,8 @@ export const storyKey: StoryNode[] = [
                 text: "Tell them that the Duck Lady is trying to steal the secret recipe and this is a distraction",
                 nextId: 48
             }
-        ]
+        ],
+        bodyKey: "guardConfused"
     },
     {
         id: 47,
@@ -670,7 +716,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 49
             },
-        ]
+        ],
+        bodyKey: "guardNeutral"
     },
     {
         id: 48,
@@ -682,7 +729,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "guardAngry"
     },
     {
         id: 45,
@@ -702,7 +750,8 @@ export const storyKey: StoryNode[] = [
                 text: "Suggest changing the class to another day",
                 nextId: 51
             }
-        ]
+        ],
+        bodyKey: "duckLadyCry"
     },
     {
         id: 50,
@@ -714,7 +763,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 31
             },
-        ]
+        ],
+        bodyKey: "duckLadyCry"
     },
     {
         id: 51,
@@ -726,7 +776,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 49
             },
-        ]
+        ],
+        bodyKey: "duckLadyHappy"
     },
     {
         id: 49,
@@ -738,7 +789,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 52
             },
-        ]
+        ],
+        bodyKey: "chickenPetting"
     },
     {
         id: 52,
@@ -754,7 +806,8 @@ export const storyKey: StoryNode[] = [
                 text: "Actively glance around the room to find the location of the safe with the secret recipe",
                 nextId: 54
             }
-        ]
+        ],
+        bodyKey: "chickenHappyPet"
     },
     {
         id: 53,
@@ -770,7 +823,8 @@ export const storyKey: StoryNode[] = [
                 text: "Clears throat to get the boss' attention",
                 nextId: 56
             }
-        ]
+        ],
+        bodyKey: "chickenPetting"
     },
     {
         id: 56,
@@ -782,7 +836,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "chickenThrow"
     },
     {
         id: 55,
@@ -798,7 +853,8 @@ export const storyKey: StoryNode[] = [
                 text: "Clears throat to get the boss' attention",
                 nextId: 56
             }
-        ]
+        ],
+        bodyKey: "chickenPet"
     },
     {
         id: 58,
@@ -814,7 +870,8 @@ export const storyKey: StoryNode[] = [
                 text: "Clears throat to get the boss' attention",
                 nextId: 56
             }
-        ]
+        ],
+        bodyKey: "chickenHappyPet"
     },
     {
         id: 59,
@@ -830,7 +887,8 @@ export const storyKey: StoryNode[] = [
                 text: "Compliment him for his chicken care",
                 nextId: 61
             }
-        ]
+        ],
+        bodyKey: "bossNeutral"
     },
     {
         id: 60,
@@ -842,7 +900,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "bossHappy"
     },
     {
         id: 61,
@@ -854,7 +913,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 62
             },
-        ]
+        ],
+        bodyKey: "bossHappy"
     },
     {
         id: 62,
@@ -866,7 +926,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 63
             },
-        ]
+        ],
+        bodyKey: "bossHappy"
     },
     {
         id: 63,
@@ -878,7 +939,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 64
             },
-        ]
+        ],
+        bodyKey: "bossCry"
     },
     {
         id: 54,
@@ -890,7 +952,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 65
             },
-        ]
+        ],
+        bodyKey: "bossNeutral"
     },
     {
         id: 65,
@@ -906,7 +969,8 @@ export const storyKey: StoryNode[] = [
                 text: "Yes, I was the only one he could afford",
                 nextId: 67
             }
-        ]
+        ],
+        bodyKey: "bossNeutral"
     },
     {
         id: 67,
@@ -918,7 +982,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 68
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 68,
@@ -930,7 +995,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "bossHappy"
     },
     {
         id: 66,
@@ -942,7 +1008,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 69
             },
-        ]
+        ],
+        bodyKey: "bossNeutral"
     },
     {
         id: 69,
@@ -954,7 +1021,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 70
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 70,
@@ -970,7 +1038,8 @@ export const storyKey: StoryNode[] = [
                 text: "Maybe... he had his reasons?",
                 nextId: 72
             }
-        ]
+        ],
+        bodyKey: "bossNeutral"
     },
     {
         id: 71,
@@ -982,7 +1051,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "chickenThrow"
     },
     {
         id: 72,
@@ -994,7 +1064,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 73
             },
-        ]
+        ],
+        bodyKey: "bossCry"
     },
     {
         id: 73,
@@ -1006,7 +1077,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 64
             },
-        ]
+        ],
+        bodyKey: "bossCry"
     },
     {
         id: 64,
@@ -1018,7 +1090,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 74
             },
-        ]
+        ],
+        bodyKey: "bossCry"
     },
     {
         id: 74,
@@ -1034,7 +1107,8 @@ export const storyKey: StoryNode[] = [
                 text: "Grab the chicken on his table and bring it to the boss",
                 nextId: 76
             }
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 75,
@@ -1050,7 +1124,8 @@ export const storyKey: StoryNode[] = [
                 text: "Glance back at the chicken on the table",
                 nextId: 78
             }
-        ]
+        ],
+        bodyKey: "safe"
     },
     {
         id: 77,
@@ -1062,7 +1137,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 79
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 79,
@@ -1074,7 +1150,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "explosion"
     },
     {
         id: 78,
@@ -1086,7 +1163,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: 80
             },
-        ]
+        ],
+        bodyKey: "flanders"
     },
     {
         id: 80,
@@ -1098,7 +1176,8 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 76,
@@ -1114,7 +1193,8 @@ export const storyKey: StoryNode[] = [
                 text: "Give the boss space by running the meeting for him",
                 nextId: 81
             }
-        ]
+        ],
+        bodyKey: "staffAngry"
     },
     {
         id: 81,
@@ -1126,6 +1206,7 @@ export const storyKey: StoryNode[] = [
                 text: " ",
                 nextId: -1
             },
-        ]
+        ],
+        bodyKey: "bossSit"
     },
   ]

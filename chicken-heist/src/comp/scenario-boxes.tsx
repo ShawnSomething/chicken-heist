@@ -22,12 +22,12 @@ const imageMap: Record<ScenarioKey, string> = {
 
 export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
   return (
-    <div className="fixed top-2/4 inset-x-0 flex justify-center">
+    <div className="fixed top-2/4 inset-x-0 flex justify-center scale-100">
       <AnimatePresence mode="wait">
         <motion.img
           key={scenarioKey}
           src={imageMap[scenarioKey]}
-          className="w-full max-w-3xl px-4"
+          className="w-full max-w-3xl px-4 scale-150 max-h-36"
           initial={{ opacity: 0, scale: 1.2 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}

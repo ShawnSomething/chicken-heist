@@ -42,7 +42,7 @@ function App() {
       <div className='bg-yellow-50 min-h-screen'>
         {screen !== "start" && currentNode && (
           <>
-            <Body/>
+            <Body bodyKey={currentNode.bodyKey}/>
             <Scenarios scenarioKey={currentNode.scenarioKey} text={currentNode.text} />
             <Choices choiceKey={currentNode.choiceKey} options={currentNode.options} onClick={handleChoice} />
           </>
