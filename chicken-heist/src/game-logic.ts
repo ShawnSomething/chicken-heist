@@ -120,7 +120,7 @@ export const storyKey: StoryNode[] = [
         id: 8,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: \nThat's great. So on the East, there are two guards on the ground and one on the banister. How do you proceed?",
+        text: "Flanders: \nThat's great. So on the East, there are two guards on the ground and one on the bannister. How do you proceed?",
         options: [
             {
                 text: "Walk up to them casually and start a conversation",
@@ -168,7 +168,7 @@ export const storyKey: StoryNode[] = [
         id: 12,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "The Guards were confused, but let's you in",
+        text: "The Guards were confused, but let you in",
         options: [
             {
                 text: "Enter the stronghold",
@@ -220,7 +220,7 @@ export const storyKey: StoryNode[] = [
         id: 16,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: \nSo there is a small stairway to the left of the courtyard?! Oh this blasted map! The guy at thie thrift shop told me that this was the real deal!",
+        text: "Flanders: \nSo there is a small stairway to the left of the courtyard?! Oh this blasted map! The guy at the thrift shop told me that this was the real deal!",
         options: [
             {
                 text: "Turn back and walk into the staff Yoga Hall",
@@ -348,7 +348,7 @@ export const storyKey: StoryNode[] = [
         id: 25,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "You see the staff chewing up handfuls of worms to mouth feeding the chickens.",
+        text: "You see the staff chewing up handfuls of worms to mouth feed the chickens.",
         options: [
             {
                 text: "You slowly back out",
@@ -387,7 +387,7 @@ export const storyKey: StoryNode[] = [
         text: "Flanders: \nLook at these plebs! If Daddy gave me the secret recipe, I would be the one with all the money and running this stupid cooking class myself! I make amazing Steaks",
         options: [
             {
-                text: "Shuffle awkwardly into the class room",
+                text: "Shuffle awkwardly into the classroom",
                 nextId: 30
             },
         ]
@@ -396,7 +396,7 @@ export const storyKey: StoryNode[] = [
         id: 27,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "You see a bunch of people at their computer. A staff walks up to you",
+        text: "You see a bunch of people at their computers. A staff member walks up to you",
         options: [
             {
                 text: " ",
@@ -448,7 +448,7 @@ export const storyKey: StoryNode[] = [
         id: 23,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "A staff sees you coming out the Breakroom",
+        text: "A staff sees you coming out of the Breakroom",
         options: [
             {
                 text: " ",
@@ -467,7 +467,7 @@ export const storyKey: StoryNode[] = [
                 nextId: 35
             },
             {
-                text: "Laught it off and say that you are new. And you are needed in the Control Tower urgently.",
+                text: "Laugh it off and say that you are new. And you are needed in the Control Tower urgently.",
                 nextId: 36
             },
             {
@@ -504,7 +504,7 @@ export const storyKey: StoryNode[] = [
         id: 9,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: \nThat's great. So on the West, there are two guards with a guard dog and one on the banister. How do you proceed?",
+        text: "Flanders: \nThat's great. So on the West, there are two guards with a guard dog and one on the bannister. How do you proceed?",
         options: [
             {
                 text: "Walk up to them casually and start a conversation",
@@ -524,7 +524,7 @@ export const storyKey: StoryNode[] = [
         id: 37,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "The dog starts chasing the sticks and pull the guards on the ground away. The Banister Guard is confused.",
+        text: "The dog starts chasing the sticks and pulls the guards on the ground away. The Bannister Guard is confused.",
         options: [
             {
                 text: "Enter the Stronghold",
@@ -564,7 +564,7 @@ export const storyKey: StoryNode[] = [
         id: 41,
         scenarioKey: "default",
         choiceKey: "restart",
-        text: "The Banister Guard notices you. You got caught",
+        text: "The Bannister Guard notices you. You got caught",
         options: [
             {
                 text: " ",
@@ -636,7 +636,7 @@ export const storyKey: StoryNode[] = [
         id: 44,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "You try your best, but set fire to the kitchen. You run out of the room while you hear Flanders laughing in your ear piece. A group of guards run up to you.",
+        text: "You try your best, but set fire to the kitchen. You run out of the room while you hear Flanders laughing in your earpiece. A group of guards run up to you.",
         options: [
             {
                 text: " ",
@@ -708,7 +708,7 @@ export const storyKey: StoryNode[] = [
         id: 50,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "Duck Lady got offended and calls the guards on you. You are brought to the HR department",
+        text: "Duck Lady got offended and called the guards on you. You are brought to the HR department",
         options: [
             {
                 text: " ",
@@ -720,7 +720,7 @@ export const storyKey: StoryNode[] = [
         id: 51,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "You both have a really nice heart to heart about how she doesn't think that the team values her. She thought she could win them over with her cooking. She is thankful for your empathy and brings you to the control room to brag about you to the boss",
+        text: "You both have a really nice heart-to-heart about how she doesn't think that the team values her. She thought she could win them over with her cooking. She is thankful for your empathy and brings you to the control room to brag about you to the boss",
         options: [
             {
                 text: " ",
@@ -732,7 +732,7 @@ export const storyKey: StoryNode[] = [
         id: 49,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "You arrive in the control room. The boos is sitting with his back to you. His left hand petting the chicken that is on his desk.",
+        text: "You arrive in the control room. The boss is sitting with his back to you. His left hand petting the chicken that is on his desk.",
         options: [
             {
                 text: " ",
@@ -744,7 +744,7 @@ export const storyKey: StoryNode[] = [
         id: 52,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "You are left alone with the boss after the a little too long bragging session. He didn't react, but you very much appreciated it. The room is silent. Only the sound of the chicken cooing as it is being pet.",
+        text: "You are left alone with the boss after bragging session that went on for a little too long. He didn't react, but you very much appreciated it. The room is silent. Only the sound of the chicken cooing as it is being pet.",
         options: [
             {
                 text: "Wait patiently while the boss pets the chicken",
@@ -776,7 +776,7 @@ export const storyKey: StoryNode[] = [
         id: 56,
         scenarioKey: "default",
         choiceKey: "restart",
-        text: "The boss turns around slowly. He notices the communicator in your ear immediately. He picks up the chicken and throws it at you. You got caught",
+        text: "The boss turns around slowly. He notices the communicator in your ear immediately. He picks up the chicken and threw it at you. You got caught",
         options: [
             {
                 text: " ",
@@ -836,7 +836,7 @@ export const storyKey: StoryNode[] = [
         id: 60,
         scenarioKey: "default",
         choiceKey: "normWin",
-        text: "The boss likes your moxie. He gives you a well paying job and calls the cops on Flanders",
+        text: "The boss likes your moxie. He gives you a well-paying job and calls the cops on Flanders",
         options: [
             {
                 text: " ",
@@ -860,7 +860,7 @@ export const storyKey: StoryNode[] = [
         id: 62,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "The boss goes into a three hour monologue about the best way to care for a chicken. Tears welled up in his eyes as he spoke.",
+        text: "The boss goes into a three-hour monologue about the best way to care for a chicken. Tears welled up in his eyes as he spoke.",
         options: [
             {
                 text: " ",
@@ -924,7 +924,7 @@ export const storyKey: StoryNode[] = [
         id: 68,
         scenarioKey: "default",
         choiceKey: "normWin",
-        text: "The boss is amused at your honesty. He gives you a well paying job and calls the cops on Flanders",
+        text: "The boss is amused at your honesty. He gives you a well-paying job and calls the cops on Flanders",
         options: [
             {
                 text: " ",
@@ -976,7 +976,7 @@ export const storyKey: StoryNode[] = [
         id: 71,
         scenarioKey: "default",
         choiceKey: "restart",
-        text: "The boss was not amused by the way you easily agreed with with rude statement about his brother. He throws the chicken at you. You got caught.",
+        text: "The boss was not amused by the way you easily agreed with with rude statement about his brother. He threw the chicken at you. You got caught.",
         options: [
             {
                 text: " ",
@@ -988,7 +988,7 @@ export const storyKey: StoryNode[] = [
         id: 72,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "The boss goes into a two hour monologue, opening up about their childhood. About all the expectations placed on them for the business and the reputation.",
+        text: "The boss goes into a two-hour monologue, opening up about their childhood. About all the expectations placed on them for the business and the reputation.",
         options: [
             {
                 text: " ",
@@ -1012,7 +1012,7 @@ export const storyKey: StoryNode[] = [
         id: 64,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "The boss ran out of the room crying. You can hear the staff outside trying to mooch of his vulnerable state",
+        text: "The boss ran out of the room crying. You can hear the staff outside trying to mooch off his vulnerable state",
         options: [
             {
                 text: " ",
