@@ -6,6 +6,7 @@ import { Body } from './comp/body';
 import { Scenarios } from './comp/scenario-boxes';
 import { Choices } from './comp/choices';
 import { storyKey, StoryNode } from './game-logic';
+import comm from './comm device.mp4'
 
 function App() {
   const [screen, setScreen] = useState<"start" | "game" | "lose" | "win">("start");
@@ -41,7 +42,7 @@ function App() {
       <div className='bg-yellow-50 min-h-screen'>
         {screen !== "start" && currentNode && (
           <>
-            <Body />
+            <Body/>
             <Scenarios scenarioKey={currentNode.scenarioKey} text={currentNode.text} />
             <Choices choiceKey={currentNode.choiceKey} options={currentNode.options} onClick={handleChoice} />
           </>
