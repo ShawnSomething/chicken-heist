@@ -104,7 +104,7 @@ export const storyKey: StoryNode[] = [
         id: 7,
         scenarioKey: "flanders",
         choiceKey: "default",
-        text: "Flanders: \nAlright kid, what is your current positino?",
+        text: "Flanders: \nAlright kid, what is your current position?",
         options: [
             {
                 text: "East of the Stronghold",
