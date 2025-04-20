@@ -2,6 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion"
 
 import commT from './commT.mp40001-0025.webm'
+import recipe from './recipe doc0001-0020.webm'
 
 type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "canteen" | "deepFryer" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
@@ -11,8 +12,8 @@ interface BodyProps {
 
 const bodyMap: Record<BodyKey, string> ={
     flanders: commT,
-    /*recipe: ,
-    guardNeutral: ,
+    recipe: recipe,
+    /*guardNeutral: ,
     guardConfused: ,
     guardAngry: ,
     staffYoga: ,
@@ -42,7 +43,7 @@ const bodyMap: Record<BodyKey, string> ={
 export const Body: React.FC<BodyProps> = ({ bodyKey }) => {
     return(
         <>
-            <div className='fixed bottom-72 size-96 flex left-1/2 -translate-x-1/2'>
+            <div className='fixed bottom-48 size-96 scale-150 flex left-1/2 -translate-x-1/2'>
                 <AnimatePresence mode="wait">
                 <motion.div
                     key={bodyKey}
