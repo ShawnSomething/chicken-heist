@@ -7,6 +7,7 @@ import guardNeutral from './guard-neutral.png'
 import guardConfused from './guard-confused.png'
 import guardAngry from './guard-angry.png'
 import doors from './doors.png'
+import yoga from './yoga.png'
 
 type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "canteen" | "deepFryer" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
@@ -21,8 +22,8 @@ const bodyMap: Record<BodyKey, string> ={
     guardConfused: guardConfused,
     guardAngry: guardAngry,
     threeDoors: doors,
-    /*staffYoga: ,
-    breakroom: ,
+    staffYoga: yoga,
+    /*breakroom: ,
     staffNeutral: ,
     staffAngry: ,
     staffConfused: ,
