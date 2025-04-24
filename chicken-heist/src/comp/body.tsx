@@ -36,7 +36,6 @@ const bodyMap: Record<BodyKey, string> ={
     safe: safe,
     chickenHappyPet: chickenLove,
     /*mountFeed: ,
-    canteen: ,
     duckLadyNice: ,
     duckLadyHappy: ,
     duckLadyCry: ,
