@@ -391,13 +391,13 @@ export const storyKey: StoryNode[] = [
                 nextId: -1
             },
         ],
-        bodyKey: "staffAngry"
+        bodyKey: "mouthFeed"
     },
     {
         id: 26,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "A wave of good fried chicken smell rushes through you as you walk through the canteen",
+        text: "A wave of good fried chicken smell rushes through you as you walk through the canteen.",
         options: [
             {
                 text: "Proceed to the other door and head into the Cooking Class Room",
@@ -430,7 +430,7 @@ export const storyKey: StoryNode[] = [
                 nextId: 31
             },
         ],
-        bodyKey: "deepFryer"
+        bodyKey: "staffNeutral"
     },
     {
         id: 31,
