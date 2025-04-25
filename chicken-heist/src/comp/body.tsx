@@ -15,6 +15,7 @@ import staffAngry from './staffAngry.png'
 import safe from './safe0001-0015.webm'
 import chickenLove from './chickenLove0001-0010.webm'
 import mouthFeed from './mouthFeed0001-0040.webm'
+import explosion from './explosion.png'
 
 type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "canteen" | "deepFryer" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
@@ -37,17 +38,18 @@ const bodyMap: Record<BodyKey, string> ={
     safe: safe,
     chickenHappyPet: chickenLove,
     mountFeed: mouthFeed,
+    explosion: explosion,
     /*duckLadyNice: ,
     duckLadyHappy: ,
     duckLadyCry: ,
-    chickenPetting: ,
-    staffPhoto: ,
-    chickenThrow: ,
     bossNeutral: ,
     bossHappy: ,
     bossCry: ,
     bossSit: ,
-    explosion: , */
+    chickenPetting: ,
+    staffPhoto: ,
+    chickenThrow: ,
+    */
 }
 
 export const Body: React.FC<BodyProps> = ({ bodyKey }) => {
