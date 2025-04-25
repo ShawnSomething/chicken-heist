@@ -17,6 +17,9 @@ import chickenLove from './chickenLove0001-0010.webm'
 import mouthFeed from './mouthFeed0001-0040.webm'
 import explosion from './explosion.png'
 import chickenThrow from './chickenthrow.png'
+import duckLadyNice from './duckLadyNice.png'
+import duckLadyHappy from './duckLadyHappy.png'
+import duckLadySad from './duckLadySad.png'
 
 type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
@@ -41,10 +44,10 @@ const bodyMap: Record<BodyKey, string> ={
     mountFeed: mouthFeed,
     explosion: explosion,
     chickenThrow: chickenThrow,
-    /*duckLadyNice: ,
-    duckLadyHappy: ,
-    duckLadyCry: ,
-    bossNeutral: ,
+    duckLadyNice: duckLadyNice,
+    duckLadyHappy: duckLadyHappy,
+    duckLadyCry: duckLadySad,
+    /*bossNeutral: ,
     bossHappy: ,
     bossCry: ,
     bossSit: ,
