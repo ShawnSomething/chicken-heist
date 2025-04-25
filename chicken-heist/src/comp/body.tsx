@@ -16,8 +16,9 @@ import safe from './safe0001-0015.webm'
 import chickenLove from './chickenLove0001-0010.webm'
 import mouthFeed from './mouthFeed0001-0040.webm'
 import explosion from './explosion.png'
+import chickenThrow from './chickenthrow.png'
 
-type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "canteen" | "deepFryer" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
+type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
 interface BodyProps {
     bodyKey: BodyKey
@@ -39,6 +40,7 @@ const bodyMap: Record<BodyKey, string> ={
     chickenHappyPet: chickenLove,
     mountFeed: mouthFeed,
     explosion: explosion,
+    chickenThrow: chickenThrow,
     /*duckLadyNice: ,
     duckLadyHappy: ,
     duckLadyCry: ,
@@ -48,7 +50,6 @@ const bodyMap: Record<BodyKey, string> ={
     bossSit: ,
     chickenPetting: ,
     staffPhoto: ,
-    chickenThrow: ,
     */
 }
 
