@@ -854,7 +854,7 @@ export const storyKey: StoryNode[] = [
                 nextId: 56
             }
         ],
-        bodyKey: "chickenPet"
+        bodyKey: "chickenPetting"
     },
     {
         id: 58,
