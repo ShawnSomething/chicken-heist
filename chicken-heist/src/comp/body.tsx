@@ -20,6 +20,9 @@ import chickenThrow from './chickenthrow.png'
 import duckLadyNice from './duckLadyNice.png'
 import duckLadyHappy from './duckLadyHappy.png'
 import duckLadySad from './duckLadySad.png'
+import bossNeutral from './bossNeutral.png'
+import bossHappy from './bossHappy.png'
+import bossCry from './bossCry.png'
 
 type BodyKey = "flanders" | "recipe" | "guardNeutral" | "guardConfused" | "guardAngry" | "staffYoga"| "breakroom" | "threeDoors" | "staffNeutral" | "staffAngry" | "staffConfused" | "mouthFeed" | "duckLadyNice" | "duckLadyHappy" | "duckLadyCry" | "chickenPetting" | "chickenHappyPet" | "staffPhoto" | "chickenThrow" | "bossNeutral" | "bossHappy" | "bossCry" | "safe" | "bossSit" | "explosion" | any
 
@@ -47,10 +50,10 @@ const bodyMap: Record<BodyKey, string> ={
     duckLadyNice: duckLadyNice,
     duckLadyHappy: duckLadyHappy,
     duckLadyCry: duckLadySad,
-    /*bossNeutral: ,
-    bossHappy: ,
-    bossCry: ,
-    bossSit: ,
+    bossNeutral: bossNeutral,
+    bossHappy: bossHappy,
+    bossCry: bossCry,
+    /*bossSit: ,
     chickenPetting: ,
     staffPhoto: ,
     */
