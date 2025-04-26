@@ -39,7 +39,7 @@ export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
         <AnimatePresence mode="wait"> 
           <motion.div 
             key={text}
-            className="text-black text-x1 whitespace-pre-line"
+            className="text-black whitespace-pre-line text-[clamp(12px, 3vw, 25px)] leading-tight"
             initial={{ opacity: 0, scale: 1.2 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
