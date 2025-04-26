@@ -47,7 +47,7 @@ const bodyMap: Record<BodyKey, string> ={
     staffConfused: staffConfused,
     safe: safe,
     chickenHappyPet: chickenLove,
-    mountFeed: mouthFeed,
+    mouthFeed: mouthFeed,
     explosion: explosion,
     chickenThrow: chickenThrow,
     duckLadyNice: duckLadyNice,

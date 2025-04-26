@@ -289,7 +289,7 @@ export const storyKey: StoryNode[] = [
                 nextId: 21
             },
             {
-                text: "Quickly shut the locker and go back down the stairs into the main building",
+                text: "Quickly shut the locker and go back to the main building",
                 nextId: 23
             },
             {
@@ -303,14 +303,14 @@ export const storyKey: StoryNode[] = [
         id: 21,
         scenarioKey: "default",
         choiceKey: "restart",
-        text: "The Staff in the photo walks into the locker room, wearing stretchy yoga pants. He sees you at his locker and is humiliated. You got caught",
+        text: "The Guard in the photo walks into the locker room, wearing stretchy yoga pants. He sees you at his locker and is humiliated. You got caught",
         options: [
             {
                 text: " ",
                 nextId: -1
             },
         ],
-        bodyKey: "staffAngry"
+        bodyKey: "guardAngry"
     },
     {
         id: 20,
@@ -453,7 +453,7 @@ export const storyKey: StoryNode[] = [
         id: 32,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Staff: \nDon't be ridiculous, we don't care enough about security. We are all about *STrateGy*. You got caught.",
+        text: "Staff: \nDon't be ridiculous, we don't care about security. We are all about *STrateGy*. You got caught.",
         options: [
             {
                 text: " ",
@@ -466,7 +466,7 @@ export const storyKey: StoryNode[] = [
         id: 33,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Staff: \nDon't be ridiculous, we don't care enough about operations. We are all about *STrateGy*. You got caught",
+        text: "Staff: \nDon't be ridiculous, we don't care about operations. We are all about *STrateGy*. You got caught",
         options: [
             {
                 text: " ",
@@ -495,11 +495,11 @@ export const storyKey: StoryNode[] = [
         text: "Staff: \nHey! You there! Where are YOUR stretchy pants?!",
         options: [
             {
-                text: "Tell them you look hotter without it and do yoga with the rest of the staff.",
+                text: "Tell them you look hotter without it and do yoga with them.",
                 nextId: 35
             },
             {
-                text: "Laugh it off and say that you are new. And you are needed in the Control Tower urgently.",
+                text: "Say that you are new and needed in the Control Tower urgently.",
                 nextId: 36
             },
             {
@@ -700,7 +700,7 @@ export const storyKey: StoryNode[] = [
                 nextId: 47
             },
             {
-                text: "Tell them that the Duck Lady is trying to steal the secret recipe and this is a distraction",
+                text: "Tell them that the Duck Lady's distraction to steal the secret recipe",
                 nextId: 48
             }
         ],
@@ -723,7 +723,7 @@ export const storyKey: StoryNode[] = [
         id: 48,
         scenarioKey: "guard",
         choiceKey: "restart",
-        text: "Guards: \nLIAR! She is the best cook in town! She would never do this! She is such a lovely person. How could you lie about her?! You got caught",
+        text: "Guards: \nLIAR! She is the best cook ever! She is such a lovely person. How could you lie about her?! You got caught",
         options: [
             {
                 text: " ",
@@ -736,7 +736,7 @@ export const storyKey: StoryNode[] = [
         id: 45,
         scenarioKey: "guard",
         choiceKey: "default",
-        text: "Duck Lady: \nAw... Everyone only wants to go to the yoga class... No one ever wants to join my cooking class... Maybe I should start wearing tight yoga pants while cooking too...",
+        text: "Duck Lady: \nAw... Everyone only wants the yoga class, not my cooking class... Maybe I need tight yoga pants too...",
         options: [
             {
                 text: "Join the cooking class",
@@ -770,7 +770,7 @@ export const storyKey: StoryNode[] = [
         id: 51,
         scenarioKey: "default",
         choiceKey: "next",
-        text: "You both have a really nice heart-to-heart about how she doesn't think that the team values her. She thought she could win them over with her cooking. She is thankful for your empathy and brings you to the control room to brag about you to the boss",
+        text: "You both have a nice talk about how she thinks the team doesn't value her. She loves your empathy and brings you to the control room to brag about you to the boss",
         options: [
             {
                 text: " ",
@@ -796,7 +796,7 @@ export const storyKey: StoryNode[] = [
         id: 52,
         scenarioKey: "default",
         choiceKey: "default",
-        text: "You are left alone with the boss after bragging session that went on for a little too long. He didn't react, but you very much appreciated it. The room is silent. Only the sound of the chicken cooing as it is being pet.",
+        text: "You are left alone with the boss after bragging session that went on for a little too long. He didn't react. The room is silent. Only the sound of the chicken cooing as it is being pet.",
         options: [
             {
                 text: "Wait patiently while the boss pets the chicken",
@@ -1002,7 +1002,7 @@ export const storyKey: StoryNode[] = [
         id: 66,
         scenarioKey: "boss",
         choiceKey: "next",
-        text: "Boss: \nIt's alright, no one really knew who he was. Daddy disowned him because he never cared for the chicken on the farm. He used to tie bottle rockets to their wings so they would fly higher...",
+        text: "Boss: \nIt's alright, no one really knew who he was. Daddy disowned him because he never cared for the chicken on the farm. He tied bottle rockets to their wings so they would fly higher...",
         options: [
             {
                 text: " ",
@@ -1142,7 +1142,7 @@ export const storyKey: StoryNode[] = [
     },
     {
         id: 79,
-        scenarioKey: "Flanders",
+        scenarioKey: "flanders",
         choiceKey: "normWin",
         text: "Flanders: \nNow, grab a grenade and blow up the place. You will be rewarded handsomely!",
         options: [
