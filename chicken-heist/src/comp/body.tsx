@@ -68,7 +68,7 @@ export const Body: React.FC<BodyProps> = ({ bodyKey }) => {
 
     return(
         <>
-            <div className='fixed bottom-48 size-96 scale-150 flex left-1/2 -translate-x-1/2'>
+            <div className='fixed bottom-56 size-96 scale-150 flex left-1/2 -translate-x-1/2'>
                 <AnimatePresence mode="wait">
                 <motion.div
                     key={bodyKey}
