@@ -35,11 +35,19 @@ export const Scenarios: React.FC<ScenariosProps> = ({ scenarioKey, text }) => {
         />
       </AnimatePresence>
 
-      <div className="absolute bottom-6 w-full max-w-3xl px-14 py-0">
+      <div className="absolute bottom-6 w-full max-w-3xl px-14 py-0 max-h-52 flex overflow-hidden">
         <AnimatePresence mode="wait"> 
           <motion.div 
             key={text}
-            className="text-black whitespace-pre-line text-[clamp(12px, 3vw, 25px)] leading-tight"
+            className="text-black whitespace-pre-line text-left leading-tight"
+            style={{
+              fontSize: "clamp(12px, 2vw, 20px)",
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "left",
+              justifyContent: "left",
+            }}
             initial={{ opacity: 0, scale: 1.2 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
